@@ -1,0 +1,35 @@
+body{
+    background-size: cover;
+}
+.heading{
+    background-color: aquamarine;
+    font-weight: bold;
+    font-size: 25px;
+    width:100%;
+    margin:0;
+}
+.note{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(131, 18, 18);
+}
+.song_name{
+    background-color: rgb(167, 15, 73);
+    color:rgb(174, 247, 231);
+     font-weight: 500;
+     font-size: 18px; 
+}
+video{
+    border: 5px solid rgb(170, 2, 100);
+    border-radius: 20px;
+}
+.copy_right_footer{
+    text-align: center;
+    background-color: plum;
+    bottom: 0;
+    width: 100%;
+    position:fixed;
+    line-height: 2;
+    font-weight: bold;
+    font-size: 18px;
+}
