@@ -19,7 +19,7 @@ body{
      font-weight: 500;
      font-size: 18px; 
 }
-video{
+canvas{
     border: 5px solid rgb(170, 2, 100);
     border-radius: 20px;
 }
