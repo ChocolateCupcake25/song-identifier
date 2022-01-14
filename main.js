@@ -36,10 +36,22 @@ function draw() {
     if(scoreleftWrist > 0.2){
          circle(leftWristX,leftWristY,20);
          song_2.stop();
-         document.getElementById("song_name").innerHTML='Song name = harry potter';
+         
     }
-    if(songleftWrist=song_1.stop() ){
-        document.getElementById('note').innerHTML= 'harry_potter will be played when left wrist is shown';
+    if(song_2.stop() ){
+        document.getElementById('song_name').innerHTML= 'Song_Name=harry_potter';
+        song_1.isPlaying();
+    }
+
+    songrightWrist=song_2.isPlaying();
+    if(scorerighttWrist > 0.2){
+         circle(rightWristX,rightWristY,20);
+         song_2.stop();
+         
+    }
+    if(song_1.stop() ){
+        document.getElementById('song_name').innerHTML= 'Song_Name=Peterpan';
+        song_2.isPlaying();
     }
 }
 function modelLoaded() {
